@@ -26,7 +26,10 @@ A comprehensive Sales Performance dashboard built using Power BI. This project a
 
 ## Visuals (Screenshots)
 <img width="632" alt="E-Commerce Sales Performance Page 1" src="https://github.com/user-attachments/assets/b60be60a-4d6b-4244-bf2b-70d9145605e7" />
+
 *This page provides a high-level overview of total sales and order trends, allowing for quick assessment of overall business health.*
 
+
 <img width="633" alt="E-Commerce Sales Performance Page 4" src="https://github.com/user-attachments/assets/63a2987b-b1a5-4433-bfca-dc844f779216" />
+
 *This page provides Month-over-Month Sales Growth percentage to track short-term sales momentum and identify periods of significant change.*
