@@ -19,7 +19,7 @@ A multi-page, interactive Power BI dashboard engineered to deliver actionable sa
 
 ## 🛠️ Data Model Architecture
 The dashboard relies on a centralized **Star Schema** to enforce structural integrity, maximize engine performance, and ensure strict calculation accuracy across all dimensions.
-
+```dax
       +-----------------------+
       |       Calendar        |
       +-----------------------+
@@ -34,6 +34,7 @@ The dashboard relies on a centralized **Star Schema** to enforce structural inte
 +--------------+
 |   Products   |
 +--------------+
+```
 
 ### Advanced Modeling Fix: Ambiguous Paths
 Because `Calendar` filters `Transactions` directly, connecting `Calendar` to `Customers[SignupDate]` created a closed loop, generating an ambiguous filtering path error. 
